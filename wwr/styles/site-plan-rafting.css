@@ -54,4 +54,14 @@
     background-color: var(--nav-hover-background-color);
   }
 
-  
+  .callout-content {
+    font-family: "Avenir", "Avenir Lt Std", "Palatino" !important;
+    font-size: 0.9em !important;
+    padding: 3px 15px !important;
+  }
+
+.callout-title {
+    font-family: "Avenir", "Avenir Lt Std", "Palatino" !important;
+    font-size: 0.9em !important;
+
+  }
