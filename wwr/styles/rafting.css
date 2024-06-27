@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100&display=swap');
+ 
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  :root {
+      --primary-color: #161614;
+      --secondary-color: #b88210;
+      --accent1-color: #0077B6;
+      --accent2-color: #03045E;
+  }
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
