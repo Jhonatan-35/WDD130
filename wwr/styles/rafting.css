@@ -42,7 +42,7 @@ nav a{
   max-width: 400px;
   max-height: 250px;
   float: right;
-  box-shadow: #006494;
+  
   border: #282929;
 }
 
@@ -163,19 +163,20 @@ nav a {
     border: #040505;
     
   }
+
   
-  .hero {
-  display: block;
-  position:relative;
-  width:100%;
-  height: auto;
+.hero {
+display: block;
+position:relative;
+width:100%;
+height: auto;
 
 }
 .hero img {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: auto;
+display: block;
+position: relative;
+width: 100%;
+height: auto;
 }
 footer{
   border-bottom:1px #040505;
