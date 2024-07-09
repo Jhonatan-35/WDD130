@@ -42,7 +42,6 @@ nav a{
   max-width: 400px;
   max-height: 250px;
   float: right;
-  
   border: #282929;
 }
 
@@ -60,10 +59,7 @@ nav a {
     font-family: Roboto ,Arial ,sans-serif;
   
   }
-  :root{
-    color-scheme:#282929;
-
-  }
+  
   figure {
     border: thin #c0c0c0 solid;
     display: flex;
@@ -81,7 +77,7 @@ nav a {
    figure img {
     display: flex;
     max-width: 250px;
-    max-height: auto;
+    max-height: 250px;
     position: relative;
     margin:5% ;
   }
@@ -159,7 +155,6 @@ nav a {
   .conteneder img{
     font-family: 'Times New Roman', Times, serif;
     width: 350px;
-    box-shadow: #0f0f0f;
     border: #040505;
     
   }
