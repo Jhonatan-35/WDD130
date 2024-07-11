@@ -6,7 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="Styles/quiz.css">
 </head>
-</head>
 <body>
 <header>
   <h1>Basic HTML and CSS Quizz</h1>
@@ -14,24 +13,26 @@
 <main>      
 <form>
     <fieldset>
-    <label for="1">1.What is acronym CSS stand for?</label>
-    <input type="fill in the blank question" id="q1" name="q1" >
-    <label for="">2.How are id and class attributes select in CSS?</label>
+    <label for="q1">1.What is acronym CSS stand for?</label>
+    <input type="text" id="q1" name="q1" >
+    <label for="q2">2.How are id and class attributes select in CSS?</label>
     <textarea id="q2" name="q2" rows="4"></textarea>
-    <label for="">3.Wich of the following is valid CSS comment ?</label>
+    <label for="q3">3.Wich of the following is valid CSS comment ?</label>
     <select id="q3" name="q3">
-      <option value=""select diseabled>choose One:/* This is
+      <option value="select diseabled">choose One:/* This is
         a multi-line
         comment */</option>
-    <option value=""select no-diseabled>Choose Two:\* This is
+    <option value="select no-diseabled">Choose Two:\* This is
         a multi-line
         comment */</option>
-      <option value=""select disabled>Choose Three:/* This is
+      <option value="select disabled">Choose Three:/* This is
         a multi-line
         comment */</option> 
+        <legend></legend>
     </select>
-    <label for="integer answer">4.What is the buttom margin given this declaration?</label>
-    <input type="text" id="q4" name="q4">
+    <label for="q4">
+      4.What is the buttom margin given this declaration?</label>
+    <input type="number" id="q4" name="q4">
     <button type="submit">Submit Quizz</button>
   </fieldset>
  </form>
