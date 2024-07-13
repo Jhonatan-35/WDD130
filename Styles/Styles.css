@@ -12,7 +12,6 @@ body{
   display: block;
   margin: 8px;
 }
-
 header, .grid, footer {
   max-width: 840px;
   margin: 0 auto;
@@ -32,6 +31,7 @@ nav {
   align-items: center;
   justify-content: space-evenly;
 }
+
 
 nav a {
   color: white;

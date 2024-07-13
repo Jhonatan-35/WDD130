@@ -181,11 +181,18 @@ footer{
   border-bottom:1px #040505;
   margin-top: 15px;
   float: right;
-  font-weight: 700;
+  font-weight: 840px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #219ebc;
+  margin-right: 19%;
+  
 } 
 footer p{
   text-align: center;
+  background-color: #219ebc;
+  align-items: center;
+  text-align: center;
+ 
 }
 
 

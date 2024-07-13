@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap'); 
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+  }
+  
+
+  
+  h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color:navy;
+    text-align: center;
+  }
+  h2{
+    color: navy;
+    text-align: center;
+  }
+  h3{
+    color: navy;
+    text-align: center;
+  }
+  
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #91E4FB;
+    display: grid;
+}
+  
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  header{
+    margin: 1rem auto;
+    display: flex;
+    grid-template-columns: 340px 9fr 5fr;
+    align-items: center;
+    background-color:#38a3a5;
+    padding: 0.5rem;
+    max-width: 940px;
+    margin-left: 11%;
+   
+  }
+  header img{
+    max-width: 100px;
+ 
+  }
+  
+  
+  nav {
+    flex: 2 2 100%;
+  }
+  
+  nav {
+    
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  nav {
+    display: flex;
+    list-style: none;
+    color: #040505;
+  }
+  nav a{
+    padding: 0.5rem;
+    color: #0f0f0f;
+  }
+  nav a {
+    font-family: roboto,Arial,sans-serif;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #0f0f0f; 
+    float: right;
+
+  } 
+
+label, input {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 5px;   
+  }
+  
+  label {
+    text-align: left;
+    padding-right: 1rem;
+  }
+  
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    
+  }
+
+  
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+    
+  } 
+  input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+    
+  }
+    
+  
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #91E4FB;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 98%;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+  } 
+  
+footer {
+    margin: 1rem auto 0;
+    max-width: 940px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+    background-color: #219ebc;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+footer img{
+  float: right;
+
+}
+.form-item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .column2 {
+    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+  }
+  
+  figure{
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin:5% auto;
+    position: relative;
+    border-radius: .5vmin;
+    float:left;
+    margin-left: 12%;
+    align-items: center;
+  }
+  
+  
+   figure img {
+    display: flex;
+    max-width: 250px;
+    max-height: 250px;
+    position: relative;
+    align-items: center;
+   
+  
+    
+  }
+  figcaption {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #222;
+    text-align: center;
+ 
+
+  }
+.contact{
+  background-color: #C9F1FD;
+  max-width: 940px;
+  text-align: center;
+  margin-left: 11%;
+
+}
+
+
