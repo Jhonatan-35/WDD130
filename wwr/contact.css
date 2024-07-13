@@ -54,7 +54,7 @@ fieldset {
     background-color:#38a3a5;
     padding: 0.5rem;
     max-width: 940px;
-    margin-left: 11%;
+    margin-left: 15%;
    
   }
   header img{
@@ -150,6 +150,7 @@ footer {
     border-top: 1px solid #ccc;
     background-color: #219ebc;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left:15% ;
     
 }
 footer img{
@@ -205,7 +206,7 @@ footer img{
   background-color: #C9F1FD;
   max-width: 940px;
   text-align: center;
-  margin-left: 11%;
+  margin-left: 15%;
 
 }
 
