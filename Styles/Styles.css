@@ -10,7 +10,7 @@ body{
 }
 body{
   display: block;
-  margin: 8px;
+  margin: 7px;
 }
 header, .grid, footer {
   max-width: 840px;
