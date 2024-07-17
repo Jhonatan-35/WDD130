@@ -9,6 +9,13 @@ body{
   margin: 0;
 }
 
+body {
+  font-family: var(--paragraph-font);
+  max-width: 100%;
+  padding: 20px;
+}
+
+
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -20,8 +27,8 @@ body{
     --accent1-color: #0077B6;
     --accent2-color: #03045E;
   
-    --heading-font: 'famyly', serif;
-    --paragraph-font: 'famyly', serif;
+    --heading-font: 'family', serif;
+    --paragraph-font: 'family', serif;
   
     --nav-background-color: #61a2d8;
     --nav-link-color: #3064a7;
@@ -33,10 +40,12 @@ body{
    h1,h2,h3,h4,h5,h6 {
     font-family:'Times New Roman', Times, serif;
     color:#161614;
+    margin: 1%;
   }
   header {
     padding: 20px;
     background-color: var(--accent1-color);
+    margin: auto;
   }
   p {
     padding: 25px;
@@ -74,3 +83,4 @@ body{
     font-size: 0.9em !important;
 
   }
+
