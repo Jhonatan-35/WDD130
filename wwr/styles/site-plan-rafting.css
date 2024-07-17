@@ -30,9 +30,9 @@ body{
   
   }
   
-   h1,h2,h3,h4 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+   h1,h2,h3,h4,h5,h6 {
+    font-family:'Times New Roman', Times, serif;
+    color:#161614;
   }
   header {
     padding: 20px;
