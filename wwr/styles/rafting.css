@@ -486,7 +486,7 @@ table {
 
 caption {
   caption-side: bottom;
- 
+  
   padding: 10px;
   font-weight: bold;
   border: 2px solid rgb(3, 3, 3);
@@ -548,6 +548,7 @@ tfoot > tr {
   margin: right;
   text-decoration: none;
   color: #000;
+  float: right;
 
 }
 .trade  p {
