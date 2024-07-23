@@ -549,6 +549,7 @@ tfoot > tr {
 
 }
 .trade p  {
+  margin-left: 80%;
   float: right;
 
 }
