@@ -242,12 +242,14 @@ form {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
   background-color: #91E4FB;
-  display: grid;
- 
-
-  
+  display: grid;  
 }
 
+.form-item {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
 fieldset {
   display: grid;
   grid-gap: .5rem;
@@ -346,11 +348,7 @@ footer img{
 float: right;
 
 }
-.form-item {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-}
+
 
 .column2 {
   grid-template-columns: 1fr 2fr;
@@ -545,9 +543,12 @@ tfoot > tr {
   max-width: 20%;
   padding: 20px 28px;
   border-radius: 10px;
-  margin: right;
+  float: right ;
   text-decoration: none;
-  color: #000;
+  margin-left: 80%;
+
+}
+.trade p  {
   float: right;
 
 }
