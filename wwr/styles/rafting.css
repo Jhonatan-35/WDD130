@@ -237,12 +237,13 @@ h3{
 
 form {
   width: 650px;
-  margin: 0 auto;
+  margin: 5% auto;
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
   background-color: #91E4FB;
   display: grid;
+
   
 }
 
@@ -543,13 +544,13 @@ tfoot > tr {
   max-width: 20%;
   padding: 20px 28px;
   border-radius: 10px;
- 
+  margin: right;
   text-decoration: none;
   color: #000;
 
 }
 .trade  p {
-  
+  margin: right;
   margin-top: 3%;
   color: #ffffff;
 }
