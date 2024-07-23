@@ -545,11 +545,10 @@ tfoot > tr {
   border-radius: 10px;
   float: right ;
   text-decoration: none;
-  margin-left: 80%;
   color: #000;
 
 }
-.trade   {
+.trade  p {
   float: right;
   margin-top: 3%;
   color: #ffffff;
