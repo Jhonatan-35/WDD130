@@ -539,13 +539,14 @@ tfoot > tr {
   background-color:rgb(228 240 245);
 }
 .trade  a {
-  background-color: #000000;
+  background-color: #fffbfb;
   max-width: 20%;
   padding: 20px 28px;
   border-radius: 10px;
   float: right ;
   text-decoration: none;
   margin-left: 80%;
+  color: #000;
 
 }
 .trade p  {
