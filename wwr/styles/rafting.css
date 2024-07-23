@@ -549,6 +549,11 @@ tfoot > tr {
   color: #000;
 
 }
+.trade   {
+  float: right;
+  margin-top: 3%;
+  color: #ffffff;
+}
 
 .Trip{
   background-color: #006d77;
