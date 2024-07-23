@@ -539,7 +539,7 @@ tfoot > tr {
   background-color:rgb(228 240 245);
 }
 .trade  a {
-  background-color: #f7f7f7;
+  background-color: #000000;
   max-width: 20%;
   padding: 20px 28px;
   border-radius: 10px;
@@ -556,7 +556,7 @@ tfoot > tr {
 .trade  p {
   margin: right;
   margin-top: 3%;
-  color: #0a0a0a;
+  color: #fffefe;
 }
 
 .Trip{
