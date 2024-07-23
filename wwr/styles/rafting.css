@@ -252,7 +252,7 @@ fieldset {
   margin: 1rem;
   border:1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  
+
 }
 
 header img{
@@ -550,11 +550,6 @@ tfoot > tr {
 
 }
 
-.trade p  {
-  float: right;
-  margin-top: 3%;
-  color: #ffffff;
-}
 .Trip{
   background-color: #006d77;
   border: 2px solid rgb(3, 3, 3);
