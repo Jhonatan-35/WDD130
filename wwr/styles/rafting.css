@@ -243,7 +243,7 @@ form {
   border-radius: 0.5rem;
   background-color: #91E4FB;
   display: grid;
-  margin-left: 15%;
+  
 }
 
 fieldset {
@@ -543,13 +543,13 @@ tfoot > tr {
   max-width: 20%;
   padding: 20px 28px;
   border-radius: 10px;
-  float: right ;
+ 
   text-decoration: none;
   color: #000;
 
 }
 .trade  p {
-  float: right;
+  
   margin-top: 3%;
   color: #ffffff;
 }
