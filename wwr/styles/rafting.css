@@ -5,8 +5,8 @@
   box-sizing: border-box;
 }
 body{
-  padding:0 ;
-  margin: 0;
+  padding:1px ;
+  margin: 1px;
 }
 
 header{
@@ -103,8 +103,9 @@ nav a {
     width: 100%;
     padding: 25px;
     color: rgb(250, 248, 248);
-    top: 5%;
+    top: 4%;
     left: 0%;
+    right: 3%;
     text-align: center;
    }
   
@@ -171,6 +172,7 @@ display: block;
 position:relative;
 width:100%;
 height: auto;
+margin: 2%;
 
 }
 .hero img {
@@ -178,6 +180,8 @@ display: block;
 position: relative;
 width: 100%;
 height: auto;
+border: 2px solid rgb(3, 3, 3);
+margin: 3px;
 }
  
 footer p{
@@ -213,6 +217,7 @@ body {
   font-size: 1.2em;
   color: #333;
   background: #fff;
+  margin: 1px;
 }
 
   h1 {
@@ -571,3 +576,49 @@ tfoot > tr {
   max-width: 80%;
   margin-left: 10%;
 }
+.Level form{
+  float: left;
+  max-width: 300px;
+  margin: 1.5%;
+  max-height: 900px;
+  border: 2px solid rgb(3, 3, 3);
+
+}
+ .Alt {
+background-color: navy;
+color: #fff;
+max-width: 20%;
+text-decoration: none;
+border-radius: 20px;
+padding: 15px;
+margin: 1.5%;
+ }
+ 
+ .Alt a{
+  text-decoration: none;
+  color: #fff;
+ }
+  
+  
+.grid{
+    margin: 2px;
+   background-color: #edede9;
+    max-width: 940px;
+    margin-left: 30%;
+    border: 2px solid rgba(3 , 3, 3);
+    
+ }
+   .grid img{
+    margin: 3%;
+    max-height: 240px;
+    border: 2px solid rgba(3 , 3, 3);
+    
+      
+   }
+   .grid p{
+    max-width: 400px;
+    float: right;
+    top: 3%;
+    
+    
+   }
