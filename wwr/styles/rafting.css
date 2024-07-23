@@ -252,6 +252,9 @@ form {
   margin: 5%;
   margin-left: 15%;
 }
+.Leva{
+  margin-left: 15%;
+}
 fieldset {
   display: grid;
   grid-gap: .5rem;
