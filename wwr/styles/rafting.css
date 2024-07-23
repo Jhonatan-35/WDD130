@@ -249,6 +249,8 @@ form {
   display: flex;
   position: relative;
   flex-direction: column;
+  margin: 5%;
+  margin-left: 15%;
 }
 fieldset {
   display: grid;
