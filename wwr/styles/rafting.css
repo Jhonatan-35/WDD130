@@ -18,6 +18,8 @@ header{
   padding: 0.5rem;
   max-width: 940px;
   margin-left: 13%;
+  border: 1px solid#000;
+  justify-content: space-between;
  
 }
 :root{
@@ -39,9 +41,12 @@ nav {
 	display: flex;
 	list-style: none;
   color: #040505;
+
 }
 nav a{
   padding: 20px 30px;
+  border-radius: 20px;
+  color: #C9F1FD;
   
 }
 
@@ -81,8 +86,9 @@ nav a {
     margin-left: 3%;
   }
   
-   
+  
   figcaption {
+  
     display: flex;
     color: #fff;
     text-align: center;
@@ -219,10 +225,14 @@ h2{
   color: navy;
   text-align: center;
   margin: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  
 }
 h3{
   color: navy;
   text-align: center;
+  
 }
 
 form {
@@ -351,34 +361,39 @@ figure{
   flex-flow: column;
   padding: 5px;
   max-width: 220px;
-  margin:5% auto;
+  margin:3px auto;
   position: relative;
   border-radius: .5vmin;
   float:left;
   margin-left: 3%;
   align-items: center;
-}
-
-
- figure image  {
-  display: flex;
-  max-width: 250px;
-  max-height: 250px;
-  position: relative;
-  align-items: center;
-
- 
-
+  border: #000;
   
 }
+
+ 
   figcaption {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #222;
   text-align: center;
-  
-
+  border: #040505;
 
 }
+figure img {
+   
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin:5% auto;
+  position: relative;
+  border-radius: .5vmin;
+  float:left;
+  margin-left: 3%;
+  border: #000;
+}
+
+
 .contact{
 background-color: #C9F1FD;
 max-width: 940px;
@@ -387,8 +402,165 @@ margin-left: 13%;
 
 }
 
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.Value{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.gaps{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+  border: #040505;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	
+	cursor: default;
+}
+.gaps:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.gaps img{
+	width: 300px;
+	height: 200px;
+  margin-left: 18%;
+}
+.gaps .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.gaps .contenido-card h3{
+	margin-bottom: 15px;
+	color: #000000;
+}
+.gaps .contenido-card p{
+	line-height: 1.8;
+	color: #070606;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.gaps .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	
+	border-radius: 4px;
+	
+	margin-bottom: 5px;
+}
+.gaps .contenido-card a:hover{
+	
+	color: #fff;
+}
 
 
+table {
+  
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2px solid rgb(3, 3, 3);
+  font:16px "Open Sans",Helvetica,Arial,sans-serif;
+  max-height: 1000px;
+  max-width: 940px;
+  margin-left: 8%;
+  padding: 40px 40px;
+}
 
-
+caption {
+  caption-side: bottom;
  
+  padding: 10px;
+  font-weight: bold;
+  border: 2px solid rgb(3, 3, 3);
+  
+}
+
+th,
+td {
+  border: 1px solid rgb(260 260 160);
+  padding: 20px 20px 20px;
+  border: 2px solid rgb(3, 3, 3);
+  background-color: rgb(237 238 242);
+}
+
+th {
+  vertical-align: bottom;
+}
+thead > tr {
+  background-color: rgb(228 240 245);
+  max-width: 840px;
+
+}
+
+thead > tr:nth-of-type(2) {
+  border-bottom: 2px solid rgb(140 140 140);
+}
+
+thead > tr:last-of-type > th:nth-of-type(1) {
+  background-color: rgb(225, 225, 225);
+}
+
+thead > tr:last-of-type > th:nth-of-type(2) {
+  background-color: rgb(225 238 244);
+}
+
+tbody > tr > th:first-of-type {
+  text-align: left;
+  background-color: rgb(225 238 244);
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+tbody > tr > td:last-of-type {
+  text-align: center;
+  
+}
+
+
+tfoot > tr {
+  border-top: 2px dashed rgb(140 140 140);
+  background-color:rgb(228 240 245);
+}
+.trade  a {
+  background-color: #f7f7f7;
+  max-width: 20%;
+  padding: 20px 28px;
+  border-radius: 10px;
+  float: right ;
+  text-decoration: none;
+  margin-left: 80%;
+  color: #000;
+
+}
+
+.trade p  {
+  float: right;
+  margin-top: 3%;
+  color: #ffffff;
+}
+.Trip{
+  background-color: #006d77;
+  border: 2px solid rgb(3, 3, 3);
+  margin: 5%;
+}
+.Favi{
+  background-color: #006d77;
+  border: 2px solid rgb(3, 3, 3);
+  max-width: 80%;
+  margin-left: 10%;
+}
