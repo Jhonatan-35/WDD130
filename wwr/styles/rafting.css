@@ -100,12 +100,12 @@ nav a {
     background:rgba(12, 12, 12, 0.4);
     position: absolute;
     background-position: center center;
-    width: 100%;
+    width: 110%;
     padding: 25px;
     color: rgb(250, 248, 248);
     top: 4%;
     left: 0%;
-    right: 3%;
+    right: 1%;
     text-align: center;
    }
   
@@ -155,8 +155,9 @@ nav a {
     height: 50%;
     width: 100%;
     align-items: center;
-    border: #040505;
+    
     font-size: 100%; ;
+    border: 2px solid rgb(3, 3, 3);
    
   }
   .conteneder img{
@@ -172,7 +173,7 @@ display: block;
 position:relative;
 width:100%;
 height: auto;
-margin: 2%;
+margin: 1px;
 
 }
 .hero img {
@@ -181,7 +182,7 @@ position: relative;
 width: 100%;
 height: auto;
 border: 2px solid rgb(3, 3, 3);
-margin: 3px;
+margin: 1px;
 }
  
 footer p{
@@ -560,7 +561,7 @@ tfoot > tr {
 
 }
 .trade  p {
-  margin: right;
+  
   margin-top: 3%;
   color: #fffefe;
 }
